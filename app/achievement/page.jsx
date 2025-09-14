@@ -51,6 +51,17 @@ export default function AchievementPage() {
         {/* 成果框架图 */}
         <div className="bg-white rounded-lg shadow-lg p-8 mb-12">
           <h2 className="text-2xl font-bold text-gray-900 mb-6 text-center">"一体两翼三导向四驱动"改革框架</h2>
+          
+          {/* 框架图展示 */}
+          <div className="text-center mb-8">
+            <img 
+              src="/images/image9.png" 
+              alt="一体两翼三导向四驱动改革框架图" 
+              className="max-w-full h-auto mx-auto rounded-lg shadow-md"
+            />
+            <p className="text-gray-600 text-sm mt-2">图1 一体两翼三导向四驱动改革框架</p>
+          </div>
+          
           <div className="grid md:grid-cols-2 gap-8">
             <div className="space-y-6">
               <div className="bg-blue-50 p-6 rounded-lg">
@@ -83,6 +94,37 @@ export default function AchievementPage() {
             {/* 教学体系改革 */}
             <div className="border-l-4 border-blue-500 pl-6">
               <h3 className="text-xl font-semibold text-gray-900 mb-4">1. 基于OBE理念的教学体系改革</h3>
+              
+              {/* 技术需求图 */}
+              <div className="mb-6">
+                <img 
+                  src="/images/image10.png" 
+                  alt="区块链技术主要技术需求" 
+                  className="max-w-full h-auto mx-auto rounded-lg shadow-md"
+                />
+                <p className="text-gray-600 text-sm mt-2 text-center">图2 区块链技术主要技术需求</p>
+              </div>
+              
+              {/* 知识能力图谱 */}
+              <div className="mb-6">
+                <img 
+                  src="/images/image11.png" 
+                  alt="区块链技术知识能力图谱" 
+                  className="max-w-full h-auto mx-auto rounded-lg shadow-md"
+                />
+                <p className="text-gray-600 text-sm mt-2 text-center">图3 区块链技术知识能力图谱</p>
+              </div>
+              
+              {/* 课程目标与教学内容 */}
+              <div className="mb-6">
+                <img 
+                  src="/images/image12.png" 
+                  alt="产出导向的课程目标与教学内容" 
+                  className="max-w-full h-auto mx-auto rounded-lg shadow-md"
+                />
+                <p className="text-gray-600 text-sm mt-2 text-center">图4 产出导向的课程目标与教学内容</p>
+              </div>
+              
               <div className="grid md:grid-cols-2 gap-6">
                 <div>
                   <h4 className="font-semibold text-gray-800 mb-2">能力图谱构建</h4>
@@ -156,6 +198,37 @@ export default function AchievementPage() {
               <div className="text-3xl font-bold text-orange-600 mb-2">114</div>
               <p className="text-gray-600">IBM认证学生</p>
             </div>
+          </div>
+        </div>
+
+        {/* 教学现场展示 */}
+        <div className="bg-white rounded-lg shadow-lg p-8 mb-12">
+          <h2 className="text-2xl font-bold text-gray-900 mb-6 text-center">教学现场展示</h2>
+          <div className="grid md:grid-cols-2 gap-8">
+            <div className="text-center">
+              <img 
+                src="/images/image22.png" 
+                alt="教师讲授设计思维知识" 
+                className="max-w-full h-auto mx-auto rounded-lg shadow-md"
+              />
+              <p className="text-gray-600 text-sm mt-2">图8 教师讲授设计思维知识</p>
+            </div>
+            <div className="text-center">
+              <img 
+                src="/images/image23.png" 
+                alt="学生组队协作完成案例分析" 
+                className="max-w-full h-auto mx-auto rounded-lg shadow-md"
+              />
+              <p className="text-gray-600 text-sm mt-2">图9 学生组队，利用线上工具，协作完成案例分析</p>
+            </div>
+          </div>
+          <div className="text-center mt-8">
+            <img 
+              src="/images/image25.png" 
+              alt="设计思维报告部分截图" 
+              className="max-w-full h-auto mx-auto rounded-lg shadow-md"
+            />
+            <p className="text-gray-600 text-sm mt-2">图10 设计思维报告部分截图</p>
           </div>
         </div>
 

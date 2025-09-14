@@ -203,10 +203,24 @@ export default function EvidencePage() {
                 <div className="bg-blue-50 p-4 rounded-lg">
                   <p className="text-blue-800 font-semibold">CCF-A类顶级会议2023 ACM CCS 杰出论文奖</p>
                   <p className="text-blue-600 text-sm mt-1">中国研究团队首获CCS区块链领域杰出论文奖</p>
+                  <div className="mt-3">
+                    <img 
+                      src="/images/supporting_image9.png" 
+                      alt="ACM CCS杰出论文奖证书" 
+                      className="max-w-full h-auto rounded shadow-sm"
+                    />
+                  </div>
                 </div>
                 <div className="bg-green-50 p-4 rounded-lg">
                   <p className="text-green-800 font-semibold">CCF-B类知名会议2024 IEEE ICDCS最佳演示奖</p>
                   <p className="text-green-600 text-sm mt-1">国际会议最佳演示奖</p>
+                  <div className="mt-3">
+                    <img 
+                      src="/images/supporting_image11.jpeg" 
+                      alt="IEEE ICDCS最佳演示奖证书" 
+                      className="max-w-full h-auto rounded shadow-sm"
+                    />
+                  </div>
                 </div>
               </div>
             </div>
@@ -216,6 +230,13 @@ export default function EvidencePage() {
                 <div className="bg-purple-50 p-4 rounded-lg">
                   <p className="text-purple-800 font-semibold">IBM产学合作协同育人项目</p>
                   <p className="text-purple-600 text-sm mt-1">114名学生获得IBM技术认证</p>
+                  <div className="mt-3">
+                    <img 
+                      src="/images/supporting_image42.jpeg" 
+                      alt="IBM数字证书样式" 
+                      className="max-w-full h-auto rounded shadow-sm"
+                    />
+                  </div>
                 </div>
                 <div className="bg-orange-50 p-4 rounded-lg">
                   <p className="text-orange-800 font-semibold">微众银行产学合作项目</p>
@@ -235,10 +256,97 @@ export default function EvidencePage() {
               <p className="text-gray-600 mb-4">
                 "中国研究团队首获CCS区块链领域杰出论文奖"
               </p>
-              <p className="text-gray-500 text-sm">
+              <div className="mt-4">
+                <img 
+                  src="/images/supporting_image10.png" 
+                  alt="中国科学报报道截图" 
+                  className="max-w-full h-auto mx-auto rounded shadow-sm"
+                />
+              </div>
+              <p className="text-gray-500 text-sm mt-4">
                 该成果受到了主流媒体的广泛关注，进一步提升了研究成果在公众和产业界的知名度，
                 展示了中国在区块链领域的创新实力。
               </p>
+            </div>
+          </div>
+        </div>
+
+        {/* 竞赛获奖展示 */}
+        <div className="bg-white rounded-lg shadow-lg p-8 mb-12">
+          <h2 className="text-2xl font-bold text-gray-900 mb-6 text-center">竞赛获奖展示</h2>
+          <div className="grid md:grid-cols-2 gap-8">
+            <div className="text-center">
+              <img 
+                src="/images/supporting_image4.jpeg" 
+                alt="CCF第三届大学生区块链技术与创新应用竞赛二等奖" 
+                className="max-w-full h-auto mx-auto rounded-lg shadow-md"
+              />
+              <p className="text-gray-600 text-sm mt-2">CCF第三届大学生区块链技术与创新应用竞赛二等奖</p>
+            </div>
+            <div className="text-center">
+              <img 
+                src="/images/supporting_image5.png" 
+                alt="中国服务计算创新大赛一等奖" 
+                className="max-w-full h-auto mx-auto rounded-lg shadow-md"
+              />
+              <p className="text-gray-600 text-sm mt-2">中国服务计算创新大赛一等奖</p>
+            </div>
+            <div className="text-center">
+              <img 
+                src="/images/supporting_image6.png" 
+                alt="微众银行第三届金融科技高校技术大赛" 
+                className="max-w-full h-auto mx-auto rounded-lg shadow-md"
+              />
+              <p className="text-gray-600 text-sm mt-2">微众银行第三届金融科技高校技术大赛全国第三名</p>
+            </div>
+            <div className="text-center">
+              <img 
+                src="/images/supporting_image7.png" 
+                alt="第十七届全国大学生信息安全竞赛" 
+                className="max-w-full h-auto mx-auto rounded-lg shadow-md"
+              />
+              <p className="text-gray-600 text-sm mt-2">第十七届全国大学生信息安全竞赛三等奖</p>
+            </div>
+          </div>
+        </div>
+
+        {/* IBM产学合作案例展示 */}
+        <div className="bg-white rounded-lg shadow-lg p-8 mb-12">
+          <h2 className="text-2xl font-bold text-gray-900 mb-6 text-center">IBM产学合作案例展示</h2>
+          <div className="space-y-8">
+            <div className="text-center">
+              <img 
+                src="/images/supporting_image22.png" 
+                alt="IBM师资培训课表" 
+                className="max-w-full h-auto mx-auto rounded-lg shadow-md"
+              />
+              <p className="text-gray-600 text-sm mt-2">IBM师资培训课表</p>
+            </div>
+            <div className="text-center">
+              <img 
+                src="/images/supporting_image23.png" 
+                alt="课程宣传网页" 
+                className="max-w-full h-auto mx-auto rounded-lg shadow-md"
+              />
+              <p className="text-gray-600 text-sm mt-2">课程宣传网页</p>
+            </div>
+            <div className="grid md:grid-cols-2 gap-4">
+              <div className="text-center">
+                <img 
+                  src="/images/supporting_image25.jpeg" 
+                  alt="教师介绍实验内容" 
+                  className="max-w-full h-auto mx-auto rounded-lg shadow-md"
+                />
+                <p className="text-gray-600 text-sm mt-2">教师介绍实验内容</p>
+              </div>
+              <div className="text-center">
+                <img 
+                  src="/images/supporting_image26.jpeg" 
+                  alt="教师指导学生" 
+                  className="max-w-full h-auto mx-auto rounded-lg shadow-md"
+                />
+                <p className="text-gray-600 text-sm mt-2">教师指导学生</p>
+              </div>
             </div>
           </div>
         </div>
